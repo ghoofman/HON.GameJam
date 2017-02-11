@@ -1,19 +1,41 @@
 #include "Player.h"
 #include "Globals.h"
 
-Player::Player(OPscene* scene) {
+Player::Player() {
 	entityType = PLAYER;
 
 	controls.gamePad = OPGAMEPADS.Get(0);
 
-	rendererEntity = scene->Add((OPmodel*)OPCMAN.LoadGet("box.opm"), OPrendererEntityDesc(false, true, true, false));
-	rendererEntity->SetAlbedoMap((OPtexture*)OPCMAN.LoadGet("test4.png"));
+	entityPhysics.maxSpeed += OPrandom() * 0.025;
+	entityPhysics.drag -= OPrandom() * 0.125;
+	entityPhysics.accel += OPrandom() * 0.5;
+}
+
+void Player::AddToScene(OPscene* scene) {
+	rendererEntity = scene->Add((OPmodel*)OPCMAN.LoadGet("Samurai.opm"), OPrendererEntityDesc(false, true, true, false));
+	rendererEntity->SetAlbedoMap((OPtexture*)OPCMAN.LoadGet("SamuraiPallete.png"));
 	rendererEntity->world.SetIdentity();
 
 	OPphysXMaterial* material = OPphysXCreateMaterial(1.0, 1.0, 1.0); // OPphysXCreateMaterial(0.8, 0.8, 0.6);
-	physX = OPphysXControllerCreate(PHYSX_CONTROLLERMANAGER, material, 0.5, 0.25, NULL, NULL, NULL, NULL);
+	physX = OPphysXControllerCreate(PHYSX_CONTROLLERMANAGER, material, 0.5, 0.5, NULL, NULL, NULL, NULL);
 	OPphysXControllerSetPos(physX, position);
 	physX->setStepOffset(0.1);
+}
+
+void Player::RemoveFromScene() {
+	physX->release();
+}
+
+void Player::DealDamage(ui32 amount) {
+	if (health <= 0) return;
+
+	health -= amount;
+	if (health <= 0) {
+		rendererEntity->material->visible = false;
+		rendererEntity->shadowMaterial->visible = false;
+		// Remove controller
+		physX->release();
+	}
 }
 
 void Player::Update(OPtimer* timer) {
@@ -23,6 +45,8 @@ void Player::Update(OPtimer* timer) {
 	prevRotate = rotate;
 	prevScale = scale;
 	
+	attacking = controls.Attacking();
+
 	OPfloat speed = 1.0f + controls.Running();
 
 	OPvec3 dir = OPVEC3_ZERO;
@@ -38,6 +62,13 @@ void Player::Update(OPtimer* timer) {
 	dir.x = moveDir.x;
 	dir.z = moveDir.y;
 	dir.Norm();
+
+	if (hasTarget) {
+		OPvec3 targetDir = target - position;
+		dir.x = targetDir.x;
+		dir.z = targetDir.z;
+		dir.Norm();
+	}
 
 	OPvec2 planerVelocity = {
 		entityPhysics.velocity.x,
@@ -75,8 +106,14 @@ void Player::Update(OPtimer* timer) {
 	if (len > 0) {
 
 		// OPvec3 acceleration;
-		entityPhysics.acceleration += forward * (-dir.z * entityPhysics.accel * speed);
-		entityPhysics.acceleration += left * (-dir.x * entityPhysics.accel * speed);
+		if (hasTarget) {
+			entityPhysics.acceleration.z += (dir.z * entityPhysics.accel * speed);
+			entityPhysics.acceleration.x += (dir.x * entityPhysics.accel * speed);
+		}
+		else {
+			entityPhysics.acceleration += forward * (-dir.z * entityPhysics.accel * speed);
+			entityPhysics.acceleration += left * (-dir.x * entityPhysics.accel * speed);
+		}
 
 		entityPhysics.acceleration.y = 0;
 		entityPhysics.velocity += entityPhysics.acceleration * dt;
@@ -95,6 +132,10 @@ void Player::Update(OPtimer* timer) {
 
 	OPphysXControllerMove(physX, entityPhysics.velocity, timer);
 	position = OPphysXControllerGetFootPos(physX);
+
+	if (hasTarget && (OPvec3Len(position - prevPosition) < 0.001 || OPvec3Len(position - target) < 0.1)) {
+		hasTarget = false;
+	}
 }
 
 void Player::PrepRender(OPfloat delta) {
@@ -108,6 +149,7 @@ void Player::PrepRender(OPfloat delta) {
 				prevScale,
 				scale,
 				delta))->
+		Scl(0.25)->
 		RotY(OPtween(
 				prevRotate.y,
 				rotate.y,

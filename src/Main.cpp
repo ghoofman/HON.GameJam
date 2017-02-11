@@ -4,6 +4,7 @@
 #include "./OPengine.h"
 #include "Main.h"
 #include "GameState.h"
+#include "MenuState.h"
 #include "SceneLoader.h"
 
 //////////////////////////////////////
@@ -36,7 +37,7 @@ void ApplicationInit() {
 	mainWindow.Init(NULL, OPwindowParameters("Main Window", false, 1280, 720));
 
 	// Sound System initialize
-	//OPfmodInit();
+	OPfmodInit();
 
 	// Physics Setup
 	OPphysXInit();
@@ -47,7 +48,8 @@ void ApplicationInit() {
 
 	OPrenderInit(&mainWindow);
 
-	OPgameState::Change(&GS_EXAMPLE);
+	//OPgameState::Change(&GS_EXAMPLE);
+	OPgameState::Change(&GS_MENU);
 }
 
 OPint ApplicationUpdate(OPtimer* timer) {
@@ -58,6 +60,8 @@ OPint ApplicationUpdate(OPtimer* timer) {
 
 	OPinputSystemUpdate(timer);
 	if (OPKEYBOARD.WasPressed(OPkeyboardKey::ESCAPE)) return 1;
+
+	OPfmodUpdate();
 
 	return ActiveState->Update(timer);
 }

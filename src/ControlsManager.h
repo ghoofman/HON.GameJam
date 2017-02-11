@@ -10,7 +10,8 @@ struct ControlsManager {
 		moveForward = OPkeyboardKey::W,
 		moveBackward = OPkeyboardKey::S,
 		moveLeft = OPkeyboardKey::A,
-		moveRight = OPkeyboardKey::D;
+		moveRight = OPkeyboardKey::D,
+		attack = OPkeyboardKey::Q;
 
 	inline OPvec2 Movement() {
 		return gamePad->LeftThumb() +
@@ -18,8 +19,12 @@ struct ControlsManager {
 			(OPfloat)(OPKEYBOARD.IsDown(moveRight) - OPKEYBOARD.IsDown(moveLeft)),
 				(OPfloat)(OPKEYBOARD.IsDown(moveForward) - OPKEYBOARD.IsDown(moveBackward)));
 	}
-	
+
 	inline bool Running() {
 		return OPvec2Len(Movement()) > 0;
+	}
+
+	inline bool Attacking() {
+		return OPKEYBOARD.WasPressed(attack) || gamePad->WasPressed(OPgamePadButton::X);
 	}
 };

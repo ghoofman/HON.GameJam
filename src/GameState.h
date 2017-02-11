@@ -1,15 +1,13 @@
 #pragma once
 
 #include "./OPengine.h"
-#include "Player.h"
+#include "Army.h"
+#include "Enemy.h"
 #include "StaticEntity.h"
 #include "DynamicAllocator.h"
 
 class GameState : public OPgameState {
-	OPjavaScriptV8Compiled SCRIPT;
 	OPrendererForward rendererForward;
-
-	Player* player;
 
     void Init(OPgameState* last);
     OPint Update(OPtimer* time);
@@ -18,6 +16,10 @@ class GameState : public OPgameState {
 public:
 	OPscene scene;
 	DynamicAllocator<StaticEntity>* staticEntities;
+	DynamicAllocator<Enemy>* enemies;
+
+	Persistent<Function, CopyablePersistentTraits<Function>> _onFinish;
+	bool hasOnFinish = false;
 
 	void Wrap(Handle<Object> exports);
 	static void Wrapper(Handle<Object> exports);

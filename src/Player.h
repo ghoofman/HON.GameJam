@@ -4,18 +4,26 @@
 #include "GameEntity.h"
 #include "ControlsManager.h"
 
-class Player : GameEntity {
+class Player : public GameEntity {
 private:
-	OPphysXController* physX;
-	PxShape* shapes;
+	PxShape* shapes = NULL;
 	ControlsManager controls;
 
-	i32 health;
 
 public:
-	Player(OPscene* scene);
+	OPphysXController* physX = NULL;
+	OPvec3 target;
+	bool hasTarget = false;
+	bool attacking = false;
+	i32 health = 10;
+	i32 damage = 1;
+
+	Player();
+	void AddToScene(OPscene* scene);
+	void RemoveFromScene();
 	void Update(OPtimer* timer);
 	void PrepRender(OPfloat delta);
-	void Player::RenderDebug();
+	void DealDamage(ui32 amount);
+	void RenderDebug(); 
 	Handle<Object> Wrap(Handle<Object> result);
 };

@@ -54,13 +54,13 @@ JS_HELPER_SELF_WRAPPER(_StaticEntitySetSize) {
 	double z = JS_NEXT_ARG_AS_NUMBER;
 
 
-	PxBoxGeometry geo = PxBoxGeometry(x / 2.0f, y / 2.0f, z / 2.0f);
+	PxBoxGeometry geo = PxBoxGeometry(ptr->scale.x * x / 2.0f, ptr->scale.y * y / 2.0f, ptr->scale.z * z / 2.0f);
 	ptr->shapes->setGeometry(geo);
 
 	OPvec3 centerPoint =
 		ptr->rendererEntity->model->meshes[0].boundingBox.max +
 		ptr->rendererEntity->model->meshes[0].boundingBox.min;
-	ptr->shapes->setLocalPose(PxTransform(PxVec3(centerPoint.x / 2.0, centerPoint.y / 2.0, centerPoint.z / 2.0)));
+	//ptr->shapes->setLocalPose(PxTransform(PxVec3(centerPoint.x / 2.0, centerPoint.y / 2.0, centerPoint.z / 2.0)));
 
 	JS_RETURN_NULL;
 }

@@ -4,27 +4,6 @@
 			"name": "box",
 			"opm": "box.opm",
 			"type": "MESH",
-			"position": [-7,0.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
 			"position": [6.5,0.5,0],
 			"scale": [1,1,1],
 			"rotation": [0,0,0],
@@ -67,27 +46,6 @@
 			"name": "box",
 			"opm": "box.opm",
 			"type": "MESH",
-			"position": [6.5,2.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
 			"position": [6.5,0.5,1],
 			"scale": [1,1,1],
 			"rotation": [0,0,0],
@@ -110,27 +68,6 @@
 			"opm": "box.opm",
 			"type": "MESH",
 			"position": [6.5,0.5,2],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,2.5,3],
 			"scale": [1,1,1],
 			"rotation": [0,0,0],
 			"children": [],
@@ -211,27 +148,6 @@
 			"scripts": {}
 		},
 		{
-			"name": "wall",
-			"opm": "wall.opm",
-			"type": "MESH",
-			"position": [15.5,1.1102230246251565e-16,-19],
-			"scale": [1,0.5,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-10,0,-1],
-				"max": [10,4,1]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
 			"name": "BasicPlane",
 			"opm": "BasicPlane.opm",
 			"type": "MESH",
@@ -295,27 +211,6 @@
 			"scripts": {}
 		},
 		{
-			"name": "house",
-			"opm": "house.opm",
-			"type": "MESH",
-			"position": [3.5,1.1102230246251565e-16,-30],
-			"scale": [0.5,0.5,0.5],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-8.5,0,-6],
-				"max": [8.5,13,6]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
 			"name": "BasicPlane",
 			"opm": "BasicPlane.opm",
 			"type": "MESH",
@@ -369,27 +264,6 @@
 			"boundingBox": {
 				"min": [-0.5,-1.1102230246251565e-16,-0.5],
 				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "wall",
-			"opm": "wall.opm",
-			"type": "MESH",
-			"position": [-11.5,1.1102230246251565e-16,-19.5],
-			"scale": [1,0.5,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-10,0,-1],
-				"max": [10,4,1]
 			},
 			"userData": {},
 			"material": {
@@ -501,50 +375,6 @@
 				"opacity": "",
 				"color": [1,1,1],
 				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [-13,0.5,12],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Player",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {
-				"OnFinish": "console.log('Woot Woot!');\nscene_file = 'base2.opscene';"
-			}
-		},
-		{
-			"name": "Samurai",
-			"opm": "Samurai.opm",
-			"type": "MESH",
-			"position": [16,1.1102230246251565e-16,25.5],
-			"scale": [0.6571379720239056,0.6571379720239056,0.6571379720239056],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Enemy",
-			"boundingBox": {
-				"min": [-2.6180226802825928,-0.03504347801208496,-2.7205748558044434],
-				"max": [2.6180226802825928,7.570160865783691,5.167087554931641]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "SamuraiPallete2.png"
 			},
 			"scripts": {}
 		}]
