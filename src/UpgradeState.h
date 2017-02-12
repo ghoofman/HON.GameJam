@@ -13,6 +13,8 @@ class UpgradeState : public OPgameState {
     void Render(OPfloat delta);
     OPint Exit(OPgameState* next);
 public:
+	OPscene scene;
+	OPrendererForward rendererForward;
 
 };
 

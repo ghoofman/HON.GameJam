@@ -2,6 +2,7 @@
 	"GameTypes": [
 		"Static",
 		"Player",
-		"Enemy"
+		"Enemy",
+        "BoundingBox"
 	]
 }

@@ -26,7 +26,7 @@ var Helper = {
 
 var GlobalScene;
 var Entities = {};
-var scene_file = 'base.opscene';
+var scene_file = 'training.opscene';
 
 function SetTransform(entity, node, offset, scale) {
     if (entity.ignoreTransform) return;
@@ -123,7 +123,28 @@ function LoadSceneEntity(node, offset, scale) {
             break;
         }
         case 'Static': entity = Add('AddStatic', node); break;
-        case 'Enemy': entity = Add('AddEnemy', node); break;
+        case 'Enemy': {
+            entity = Add('AddEnemy', node);
+            if (node.userData) {
+                if (node.userData.health != undefined) {
+                    entity.SetHealth(node.userData.health);
+                }
+                if (node.userData.damage != undefined) {
+                    entity.SetDamage(node.userData.damage);
+                }
+                if (node.userData.armor != undefined) {
+                    entity.SetArmor(node.userData.armor);
+                }
+                if (node.userData.size != undefined) {
+                    entity.SetSize(node.userData.size);
+                }
+                if (node.userData.weight != undefined) {
+                    entity.SetWeight(node.userData.weight);
+                }
+            }
+            break;
+        }
+        case 'BoundingBox': entity = Add('AddBoundingBox', node); break;
         default: entity = Add('AddDrawable', node); break;
     }
 
@@ -183,5 +204,68 @@ function GameInit(scene) {
     var result = load(scene_file);
     for (var i = 0; i < result.models.length; i++) {
         LoadSceneEntity(result.models[i], [0, 0, 0], [1, 1, 1]);
+    }
+
+    if (scene_file == 'base.opscene') {
+        GlobalScene.OnFinish(function () {
+            scene_file = 'scene12.opscene';
+            GlobalScene.EndScene();
+        });
+        GlobalScene.SetDialog(1, 'Samurai!', function () {
+            GlobalScene.SetDialog(1, 'Get ready for battle!', function () {
+                GlobalScene.SetDialog(2, "If you're about", "to be captured...", function () {
+                    GlobalScene.SetDialog(1, "or killed...", function () {
+                        GlobalScene.SetDialog(2, "Sacrifice yourself to", "the gods!", function () {
+                            GlobalScene.SetDialog(2, "You will bring HONOR", "upon us all.");
+                        });
+                    });
+                });
+            });
+        });
+    }
+    else if (scene_file == 'training.opscene') {
+        GlobalScene.SetDialog(1, 'Welcome Samurai!', function () {
+            GlobalScene.SetDialog(1, 'Your training begins!', function () {
+                GlobalScene.SetDialog(2, 'Lets try gathering', '[ Y ]');
+                GlobalScene.SetOnGather(function () {
+                    GlobalScene.SetDialog(2, 'Now a sacrifice', 'Hold [ B ]');
+                    GlobalScene.SetOnSacrifice(function () {
+                        GlobalScene.SetDialog(2, 'Now an attack!', '[ X ]');
+                        GlobalScene.SetOnAttack(function () {
+                            GlobalScene.SetDialog(2, 'Excellent!', 'You\'re Ready!', function () {
+                                GlobalScene.OnFinish(function () {
+                                    scene_file = 'base.opscene';
+                                }, 0);
+                                GlobalScene.EndScene();
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    } else if (scene_file == 'scene12.opscene') {
+        GlobalScene.OnFinish(function () {
+            scene_file = 'scene2.opscene';
+            GlobalScene.EndScene();
+        });
+        GlobalScene.SetDialog(1, 'Not Much futher!');
+    } else if (scene_file == 'scene2.opscene') {
+        GlobalScene.OnFinish(function () {
+            scene_file = 'scene3.opscene';
+            GlobalScene.EndScene();
+        });
+        GlobalScene.SetDialog(1, 'Were almost there!', function () {
+            GlobalScene.SetDialog(1, 'One more town.', function () {
+                GlobalScene.SetDialog(2, "And then we can", "face our destiny!");
+            });
+        });
+    } else if (scene_file == 'scene3.opscene') {
+        GlobalScene.OnFinish(function () {
+            GlobalScene.SetDialog(1, 'We\'ve done it!', function () {
+                GlobalScene.SetDialog(1, 'Victory is ours!', function () {
+                    GlobalScene.EndScene();
+                });
+            });
+        });
     }
 }

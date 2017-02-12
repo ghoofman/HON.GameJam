@@ -6,6 +6,7 @@
 #include "GameState.h"
 #include "MenuState.h"
 #include "SceneLoader.h"
+#include "Globals.h"
 
 //////////////////////////////////////
 // Application Methods
@@ -30,6 +31,8 @@ void ApplicationInit() {
 	OPloadersAddDefault();
 	OPscriptAddLoader();
 	SceneAddLoader();
+	OPskeletonAddLoader();
+	OPskeletonAnimationAddLoader();
 
 	OPrenderSetup();
 
@@ -61,7 +64,8 @@ OPint ApplicationUpdate(OPtimer* timer) {
 	OPinputSystemUpdate(timer);
 	if (OPKEYBOARD.WasPressed(OPkeyboardKey::ESCAPE)) return 1;
 
-	OPfmodUpdate();
+	OPfmodUpdate(); 
+	GlobalsUpdate();
 
 	return ActiveState->Update(timer);
 }

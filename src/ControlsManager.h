@@ -11,7 +11,8 @@ struct ControlsManager {
 		moveBackward = OPkeyboardKey::S,
 		moveLeft = OPkeyboardKey::A,
 		moveRight = OPkeyboardKey::D,
-		attack = OPkeyboardKey::Q;
+		attack = OPkeyboardKey::Q,
+		dash = OPkeyboardKey::LSHIFT;
 
 	inline OPvec2 Movement() {
 		return gamePad->LeftThumb() +
@@ -26,5 +27,9 @@ struct ControlsManager {
 
 	inline bool Attacking() {
 		return OPKEYBOARD.WasPressed(attack) || gamePad->WasPressed(OPgamePadButton::X);
+	}
+
+	inline bool Dashing() {
+		return OPKEYBOARD.WasPressed(dash) || gamePad->RightTriggerWasPressed();
 	}
 };

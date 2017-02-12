@@ -1,326 +1,11 @@
 {
 	"models": [
 		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [-7,0.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,0.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,1.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,2.5,0],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,0.5,1],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,0.5,2],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,2.5,3],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,1.5,3],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "box",
-			"opm": "box.opm",
-			"type": "MESH",
-			"position": [6.5,0.5,3],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-0.5,-0.5,-0.5],
-				"max": [0.5,0.5,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
 			"name": "BasicPlane",
 			"opm": "BasicPlane.opm",
 			"type": "MESH",
-			"position": [0,0,0],
-			"scale": [100,100,100],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": " ",
-			"boundingBox": {
-				"min": [-0.5,-1.1102230246251565e-16,-0.5],
-				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "grass.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "wall",
-			"opm": "wall.opm",
-			"type": "MESH",
-			"position": [15.5,1.1102230246251565e-16,-19],
-			"scale": [1,0.5,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-10,0,-1],
-				"max": [10,4,1]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "BasicPlane",
-			"opm": "BasicPlane.opm",
-			"type": "MESH",
-			"position": [100,0,0],
-			"scale": [100,100,100],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": " ",
-			"boundingBox": {
-				"min": [-0.5,-1.1102230246251565e-16,-0.5],
-				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "grass.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "BasicPlane",
-			"opm": "BasicPlane.opm",
-			"type": "MESH",
-			"position": [200,0,0],
-			"scale": [100,100,100],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": " ",
-			"boundingBox": {
-				"min": [-0.5,-1.1102230246251565e-16,-0.5],
-				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "grass.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "wall",
-			"opm": "wall.opm",
-			"type": "MESH",
-			"position": [96,1.1102230246251565e-16,-5.5],
-			"scale": [1,1,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-10,0,-1],
-				"max": [10,4,1]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "house",
-			"opm": "house.opm",
-			"type": "MESH",
-			"position": [3.5,1.1102230246251565e-16,-30],
-			"scale": [0.5,0.5,0.5],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-8.5,0,-6],
-				"max": [8.5,13,6]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "BasicPlane",
-			"opm": "BasicPlane.opm",
-			"type": "MESH",
-			"position": [0,14.960179198774362,-50.011926773215606],
-			"scale": [100,100,30.317046359299447],
+			"position": [0,4,-50.011926773215606],
+			"scale": [200,200,60.63409271859889],
 			"rotation": [1.5700000000000003,0,0],
 			"children": [],
 			"gameType": " ",
@@ -332,175 +17,114 @@
 			"material": {
 				"opacity": "",
 				"color": [1,1,1],
-				"texture": "greyish.png"
+				"texture": "Sky.png"
 			},
 			"scripts": {}
 		},
 		{
-			"name": "BasicPlane",
-			"opm": "BasicPlane.opm",
+			"name": "Samurai",
+			"opm": "SamuraiAnim.opm",
 			"type": "MESH",
-			"position": [100,14.960178553968628,-50.01192462154163],
-			"scale": [100,100,30.317046359299447],
-			"rotation": [1.5699999999987586,0,0],
-			"children": [],
-			"gameType": " ",
-			"boundingBox": {
-				"min": [-0.5,-1.1102230246251565e-16,-0.5],
-				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "BasicPlane",
-			"opm": "BasicPlane.opm",
-			"type": "MESH",
-			"position": [200,14.960179201343903,-50.01192354647517],
-			"scale": [100,100,30.317046359299447],
-			"rotation": [1.5699999999987586,0,0],
-			"children": [],
-			"gameType": " ",
-			"boundingBox": {
-				"min": [-0.5,-1.1102230246251565e-16,-0.5],
-				"max": [0.5,1.1102230246251565e-16,0.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "wall",
-			"opm": "wall.opm",
-			"type": "MESH",
-			"position": [-11.5,1.1102230246251565e-16,-19.5],
-			"scale": [1,0.5,1],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Static",
-			"boundingBox": {
-				"min": [-10,0,-1],
-				"max": [10,4,1]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "greyish.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "poem",
-			"opm": "poem.opm",
-			"type": "MESH",
-			"position": [-9.5,1,-12.5],
-			"scale": [0.11962466639482681,0.11962466639482681,0.11962466639482681],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Enemy",
-			"boundingBox": {
-				"min": [-6,0,-4.5],
-				"max": [6,14,4.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "poem",
-			"opm": "poem.opm",
-			"type": "MESH",
-			"position": [17,1,-11],
-			"scale": [0.11962466639482681,0.11962466639482681,0.11962466639482681],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Enemy",
-			"boundingBox": {
-				"min": [-6,0,-4.5],
-				"max": [6,14,4.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "poem",
-			"opm": "poem.opm",
-			"type": "MESH",
-			"position": [18.5,1,-9.5],
-			"scale": [0.11962466639482681,0.11962466639482681,0.11962466639482681],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Enemy",
-			"boundingBox": {
-				"min": [-6,0,-4.5],
-				"max": [6,14,4.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "poem",
-			"opm": "poem.opm",
-			"type": "MESH",
-			"position": [15,1,-8],
-			"scale": [0.11962466639482681,0.11962466639482681,0.11962466639482681],
-			"rotation": [0,0,0],
-			"children": [],
-			"gameType": "Enemy",
-			"boundingBox": {
-				"min": [-6,0,-4.5],
-				"max": [6,14,4.5]
-			},
-			"userData": {},
-			"material": {
-				"opacity": "",
-				"color": [1,1,1],
-				"texture": "chr_man.png"
-			},
-			"scripts": {}
-		},
-		{
-			"name": "poem",
-			"opm": "poem.opm",
-			"type": "MESH",
-			"position": [25.5,1,11],
+			"position": [6.085660630987503,1,-9.308584683816774],
 			"scale": [0.2,0.2,0.2],
 			"rotation": [0,0,0],
 			"children": [],
 			"gameType": "Enemy",
 			"boundingBox": {
-				"min": [-6,0,-4.5],
-				"max": [6,14,4.5]
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
 			},
 			"userData": {},
 			"material": {
 				"opacity": "",
 				"color": [1,1,1],
-				"texture": "chr_man.png"
+				"texture": "SamuraiPallete2.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Samurai",
+			"opm": "SamuraiAnim.opm",
+			"type": "MESH",
+			"position": [17,1,-11],
+			"scale": [0.2,0.2,0.2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Enemy",
+			"boundingBox": {
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "SamuraiPallete2.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Samurai",
+			"opm": "SamuraiAnim.opm",
+			"type": "MESH",
+			"position": [18.5,1,-9.5],
+			"scale": [0.2,0.2,0.2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Enemy",
+			"boundingBox": {
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "SamuraiPallete2.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Samurai",
+			"opm": "SamuraiAnim.opm",
+			"type": "MESH",
+			"position": [15,1,-8],
+			"scale": [0.2,0.2,0.2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Enemy",
+			"boundingBox": {
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "SamuraiPallete2.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Samurai",
+			"opm": "SamuraiAnim.opm",
+			"type": "MESH",
+			"position": [25.5,1,-9.5],
+			"scale": [0.4,0.4,0.4],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Enemy",
+			"boundingBox": {
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
+			},
+			"userData": {
+				"damage": 2
+			},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "SamuraiPallete2.png"
 			},
 			"scripts": {}
 		},
@@ -508,7 +132,7 @@
 			"name": "box",
 			"opm": "box.opm",
 			"type": "MESH",
-			"position": [-13,0.5,12],
+			"position": [-12.974689919341069,0.5,-9.279171306277979],
 			"scale": [1,1,1],
 			"rotation": [0,0,0],
 			"children": [],
@@ -529,22 +153,2001 @@
 		},
 		{
 			"name": "Samurai",
-			"opm": "Samurai.opm",
+			"opm": "SamuraiAnim.opm",
 			"type": "MESH",
-			"position": [16,1.1102230246251565e-16,25.5],
+			"position": [7.458336750601358,1.1102230246251565e-16,-25.07934198803588],
 			"scale": [0.6571379720239056,0.6571379720239056,0.6571379720239056],
 			"rotation": [0,0,0],
 			"children": [],
 			"gameType": "Enemy",
 			"boundingBox": {
-				"min": [-2.6180226802825928,-0.03504347801208496,-2.7205748558044434],
-				"max": [2.6180226802825928,7.570160865783691,5.167087554931641]
+				"min": [-2.618022918701172,-0.03504300117492676,-2.7205748558044434],
+				"max": [2.618022918701172,7.570160865783691,5.167088031768799]
+			},
+			"userData": {
+				"damage": 5,
+				"health": 10,
+				"weight": 10
+			},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "SamuraiPallete2.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-10,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
 			},
 			"userData": {},
 			"material": {
 				"opacity": "",
 				"color": [1,1,1],
-				"texture": "SamuraiPallete2.png"
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-8,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-6,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-4,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-0.5,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [2.146111585876507,1.1102230246251565e-16,-19.765566045627033],
+			"scale": [1,1,1],
+			"rotation": [0,0.21787399308691133,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [4,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [6,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [8,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [10,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-11,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-7,1.1102230246251565e-16,-19.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [9,1.1102230246251565e-16,-21.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [1.5,1.1102230246251565e-16,-18.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-1.2139422987833353,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [0.5,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [1.5892475655540867,1.1102230246251565e-16,-19.634074256295012],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [3,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [5,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [7,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [11,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [9,1.1102230246251565e-16,-20],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-10.983273623586465,1.1102230246251565e-16,-21.008753335322204],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700000000000003,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-10.981680733221296,1.1102230246251565e-16,-19],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-10.98008784283572,1.1102230246251565e-16,-17],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [-10.97231208212029,1.1102230246251565e-16,-23.008477925220856],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [11.016719346576453,1.1102230246251565e-16,-20.991234147702034],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [11.018311763617588,1.1102230246251565e-16,-22.991233551843848],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [11.019904180678527,1.1102230246251565e-16,-24.991232955985645],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [11.021496597758865,1.1102230246251565e-16,-26.99123236012743],
+			"scale": [1,1,1],
+			"rotation": [0,1.5700242863313458,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-11,1.1102230246251565e-16,-22],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-11,1.1102230246251565e-16,-18],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [-9,1.1102230246251565e-16,-17.5],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [11,1.1102230246251565e-16,-26],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [11,1.1102230246251565e-16,-24],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "FencePost",
+			"opm": "FencePost.opm",
+			"type": "MESH",
+			"position": [11,1.1102230246251565e-16,-22],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.0426187738776207,0.009960412979125977,-0.050101373344659805],
+				"max": [0.052679695188999176,1.009960412979126,0.05010136961936951]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "house",
+			"opm": "house.opm",
+			"type": "MESH",
+			"position": [-5.686667045802111,1.1102230246251565e-16,-24.128459568585374],
+			"scale": [5.321239780228519,5.321239780228519,5.321239780228519],
+			"rotation": [0,0.8463350269294577,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.8028827905654907,0,-0.8028827905654907],
+				"max": [0.8030879497528076,1.4286856651306152,0.8030879497528076]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "HouseUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Road",
+			"opm": "Road.opm",
+			"type": "MESH",
+			"position": [-4,-1,-7.5],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-7,0,-3.1543617248535156],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Road",
+			"opm": "Road.opm",
+			"type": "MESH",
+			"position": [-32,-1,-7.5],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-7,0,-3.1543617248535156],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-4,-1,-22],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [24,-1,-22],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [0,-1,0],
+			"scale": [200,200,200],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-32,-1,-22],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Road",
+			"opm": "Road.opm",
+			"type": "MESH",
+			"position": [24,-1,-7.5],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-7,0,-3.1543617248535156],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-32.00230697419907,-1,6.949040364024697],
+			"scale": [2,2,2],
+			"rotation": [0,3.1400000000000006,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-4.011143563020951,-1,6.993620441829491],
+			"scale": [2,2,2],
+			"rotation": [-3.141592653589793,0.0015926535455110104,-3.141592653589793],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [23.9888213897465,-1,7.0382145347783],
+			"scale": [2,2,2],
+			"rotation": [-3.141592653589793,0.0015926535455110104,-3.141592653589793],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "house",
+			"opm": "house.opm",
+			"type": "MESH",
+			"position": [-23.218883514404297,1.8545166682368192e-16,7.340533971786499],
+			"scale": [4.2328554859794565,4.2328554859794565,4.2328554859794565],
+			"rotation": [-3.141592653589793,0.9298573516716476,-3.141592653589793],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.8028827905654907,0,-0.8028827905654907],
+				"max": [0.8030879497528076,1.4286856651306152,0.8030879497528076]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "HouseUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 68",
+			"type": "MESH",
+			"position": [-24,0,-8.5],
+			"scale": [1,44.859456220818366,45.97665972650323],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1]
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 69",
+			"type": "MESH",
+			"position": [0,0,-1.5],
+			"scale": [133.26004204879254,24.432834773401144,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1]
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 69",
+			"type": "MESH",
+			"position": [0,0,-28],
+			"scale": [128.5235366566919,24.432834773401144,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1]
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 69",
+			"type": "MESH",
+			"position": [-18,1,-15.347719749924128],
+			"scale": [29.112239062188802,24.432834773401144,3.2853933167260188],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1]
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-60,-1,6.949040364024697],
+			"scale": [2,2,2],
+			"rotation": [-3.141592653589793,0.0015926535455110104,-3.141592653589793],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Road",
+			"opm": "Road.opm",
+			"type": "MESH",
+			"position": [-60,-1,-7.5],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-7,0,-3.1543617248535156],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [-60,-1,-22],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 69",
+			"type": "MESH",
+			"position": [22.5,1,-15.5],
+			"scale": [47.06536428699751,24.432834773401144,3.8177530749749202],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Fence",
+			"opm": "Fence.opm",
+			"type": "MESH",
+			"position": [0.8846319530427316,1.1102230246251565e-16,-18.552468173019708],
+			"scale": [1,1,1],
+			"rotation": [0,1.1501316668388577,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-0.9626579284667969,-0.004231717903167009,-0.023780055344104767],
+				"max": [0.9897269010543823,0.9309757947921753,0.0422530360519886]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "FenceUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bridge",
+			"opm": "Bridge.opm",
+			"type": "MESH",
+			"position": [-2.274591373820923,0.002172630780626239,-14.975844161607046],
+			"scale": [1.9371956359872227,1,1.5499521458354382],
+			"rotation": [0,-1.5527660040133668,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.8992348313331604,-0.032847072929143906,-0.6892258524894714],
+				"max": [0.8992348313331604,0.032847072929143906,0.7424889802932739]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "HouseUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [-23.5,0,-22],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [23.5,0,-22],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [-0.015333499982578935,0,-18.109958791158377],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [-23.5,0,6.9958107728751715],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [-0.6969670913015733,0,6.9958107728751715],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [22.236195632814937,0,6.9958107728751715],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bridge",
+			"opm": "Bridge.opm",
+			"type": "MESH",
+			"position": [-33.66666814700178,0.0028310464724117246,-0.1274550586749057],
+			"scale": [1.9371956359872227,1,1.5499521458354382],
+			"rotation": [0,-1.5527660040133668,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.8992348313331604,-0.032847072929143906,-0.6892258524894714],
+				"max": [0.8992348313331604,0.032847072929143906,0.7424889802932739]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "HouseUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [-46.65739090827202,0,6.9958107728751715],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [-46.3713340190498,0,-22],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Road",
+			"opm": "Road.opm",
+			"type": "MESH",
+			"position": [52,-1,-7.5],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "Static",
+			"boundingBox": {
+				"min": [-7,0,-3.1543617248535156],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [51.857302953346114,-1,7.037987267632622],
+			"scale": [2,2,2],
+			"rotation": [-3.141592653589793,0.0015926535455110104,-3.141592653589793],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "RoadHalf",
+			"opm": "RoadHalf.opm",
+			"type": "MESH",
+			"position": [52,-1,-22],
+			"scale": [2,2,2],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-7,0,-2.9999897480010986],
+				"max": [7,0.5436726808547974,3.132969617843628]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "RoadUV.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [1,-0.8774335474416324,-15],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [-32.5,-0.8774335474416324,-15],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [34.5,-0.8774335474416324,-15],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [66.5,-0.8774335474416324,-15],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [-65,-0.8774335474416324,-15],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [-65.5,-0.8774335474416324,-0.5],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [-33,-0.8774335474416324,-0.5],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [0,-0.8774335474416324,-0.5],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [32.5,-0.8774335474416324,-0.5],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BasicPlane",
+			"opm": "BasicPlane.opm",
+			"type": "MESH",
+			"position": [50,-0.8774335474416324,-0.5],
+			"scale": [33.416772671840704,2.8096899256787204,2.8096899256787204],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,-1.1102230246251565e-16,-0.5],
+				"max": [0.5,1.1102230246251565e-16,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "water.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [2.5,0,-19],
+			"scale": [1,1,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [3.8363010878850172,0,-19.370983366468497],
+			"scale": [1,1,1],
+			"rotation": [0,-0.17448467345661206,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,2.2269136680110773],
+			"scale": [1,1,1],
+			"rotation": [0,-0.17448467345661206,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,3.557560496372969],
+			"scale": [0.9203740627948778,0.9203740627948778,0.9203740627948778],
+			"rotation": [0,0.1491347554979128,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,5.044401996350367],
+			"scale": [1.021166084401535,1.021166084401535,1.021166084401535],
+			"rotation": [0,-0.17448467345661206,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,6.5764661187859845],
+			"scale": [1,1,1],
+			"rotation": [0.01275392154899087,0.1504477516639234,0.002336272053677053],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,8.21964244362228],
+			"scale": [1,1,1],
+			"rotation": [0,-0.17448467345661206,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,9.588270683117557],
+			"scale": [1,1,1],
+			"rotation": [0,-0.466723877866288,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,10.796299798457992],
+			"scale": [1,1,1],
+			"rotation": [0,-1.4431265964180473,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Bush",
+			"opm": "Bush.opm",
+			"type": "MESH",
+			"position": [37.894940916638184,0,12.124519804638165],
+			"scale": [1.1102125100129054,1.1102125100129054,1.1102125100129054],
+			"rotation": [0,-0.08234746840428181,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-0.5,0.0013169944286346436,-0.5],
+				"max": [0.5,0.9137595891952515,0.5]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "Vegetation.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [45,0,6.9958107728751715],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [46,0,-22],
+			"scale": [2.1980107090913013,0.26709307967729146,1],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "Grass",
+			"opm": "Grass.opm",
+			"type": "MESH",
+			"position": [6.5,0,-18.5],
+			"scale": [1.1284636553487104,0.26709307967729146,0.33923002658655577],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": " ",
+			"boundingBox": {
+				"min": [-5.290258884429932,0,-5.290258884429932],
+				"max": [5.290258884429932,0.12861603498458862,5.290258884429932]
+			},
+			"userData": {},
+			"material": {
+				"opacity": "",
+				"color": [1,1,1],
+				"texture": "grass.png"
+			},
+			"scripts": {}
+		},
+		{
+			"name": "BB 68",
+			"type": "MESH",
+			"position": [38.5,0,-8.5],
+			"scale": [1,44.859456220818366,45.97665972650323],
+			"rotation": [0,0,0],
+			"children": [],
+			"gameType": "BoundingBox",
+			"boundingBox": {
+				"min": [-0.5,-0.5,-0.5],
+				"max": [0.5,0.5,0.5]
+			},
+			"userData": {},
+			"material": {
+				"transparent": true,
+				"opacity": 0.5,
+				"wireframe": true,
+				"color": [0,0.4666666666666667,1]
 			},
 			"scripts": {}
 		}]
